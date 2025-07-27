@@ -1,0 +1,129 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Sans Myanmar', 'Segoe UI', sans-serif;
+    background-color: #f4f6fb;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 500px;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+    border-radius: 16px;
+    text-align: center;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #002F6C;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #E6F3FF;
+    border-left: 6px solid #FAD02E;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    color: #003366;
+    margin-bottom: 6px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .below-text {
+    margin: 16px 0;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .links {
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .link-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .link-btn:hover {
+    background-color: #005bbb;
+  }
+  
+  .order-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background-color: #FAD02E;
+    color: #002F6C;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-btn:hover {
+    background-color: #f8c700;
+  }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 24px;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 16px;
+    }
+  
+    .page-title {
+      font-size: 1.6rem;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-text,
+    .below-text,
+    .footer-text {
+      font-size: 0.95rem;
+    }
+  
+    .link-btn, .order-btn {
+      font-size: 0.95rem;
+      padding: 10px 18px;
+    }
+  }
+  
